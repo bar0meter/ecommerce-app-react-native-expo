@@ -5,7 +5,7 @@ export const SIGN_UP = 'SIGN_UP'
 export const RESTORE_USER = 'RESTORE_USER'
 export const LOGOUT = 'LOGOUT'
 
-const API_KEY = 'AIzaSyBJ1qLP8FFViClAocWmmvyX6VlsUDOdZQs'
+const API_KEY = ''
 
 export const restoreUser = (token, userId) => {
   return { type: RESTORE_USER, token, userId }
